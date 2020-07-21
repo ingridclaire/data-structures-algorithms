@@ -8,4 +8,11 @@ const addAll = (n) => {
   return sum;
 }
 
-console.log(addAll(1));
+const addAllAlt = (n) => {
+  return (n * (n + 1)) / 2
+}
+
+//TESTING
+
+console.log(addAll(10000));
+console.log(addAllAlt(10000))
