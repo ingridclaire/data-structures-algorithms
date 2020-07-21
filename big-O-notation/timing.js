@@ -20,8 +20,17 @@ const logAtLeast5 = (n) => {
   }
 }
 
+// CONSTANT TIME
+
+const logAtMost5 = (n) => {
+  for (var i = 1; i <= Math.min(5, n); i++) {
+    console.log(i);
+  }
+}
+
 //TESTING
 
 // console.log(addAll(10000));
 // console.log(addAllAlt(10000))
-logAtLeast5(10);
+// logAtLeast5(10);
+logAtMost5(10);
