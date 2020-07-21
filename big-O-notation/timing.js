@@ -12,7 +12,16 @@ const addAllAlt = (n) => {
   return (n * (n + 1)) / 2
 }
 
+// LINEAR TIME
+
+const logAtLeast5 = (n) => {
+  for (var i = 1; i <= Math.max(5, n); i++) {
+    console.log(i);
+  }
+}
+
 //TESTING
 
-console.log(addAll(10000));
-console.log(addAllAlt(10000))
+// console.log(addAll(10000));
+// console.log(addAllAlt(10000))
+logAtLeast5(10);
