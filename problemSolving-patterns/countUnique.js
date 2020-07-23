@@ -29,4 +29,4 @@ const countUniqueValues = (array) => {
 
 // TESTING
 
-console.log(countUniqueValues([-1, 0, 1, 1, 1, 1, 1, 1, 2, 3, 4, 5, 1, 1, 1, 1]))
+console.log(countUniqueValues([-1, 0, 1, 1, 1, 1, 1, 1, 2, 3, 4, 5, 1, 1, 1, 2]))
